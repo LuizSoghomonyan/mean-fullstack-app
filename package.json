@@ -1,0 +1,27 @@
+{
+  "name": "mean-fullstack-app",
+  "version": "1.0.0",
+  "description": "Fullstack app woth angular and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizSoghomonyan/mean-fullstack-app.git"
+  },
+  "author": "Luiza Soghomonyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizSoghomonyan/mean-fullstack-app/issues"
+  },
+  "homepage": "https://github.com/LuizSoghomonyan/mean-fullstack-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
