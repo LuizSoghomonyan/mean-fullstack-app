@@ -1,0 +1,30 @@
+_id: req_1bce8d6224b0445abb3ac9a5507f123a
+type: Request
+parentId: fld_d0c9cdea9c244fd38a553a5fb2bba4d7
+modified: 1663079837833
+created: 1663077941734
+url: http://localhost:5000/auth/login
+name: Auth/login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"email": "test@test.com",
+    	"password": "123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0a887b2842654d6d93e58192c14a4ec8
+authentication: {}
+metaSortKey: -1663077941734
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
